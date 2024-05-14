@@ -1,9 +1,12 @@
-describe('String Calculator', function() {
+describe('ALF Spaceship finder', function() {
 	beforeEach(function() {
-		calculator = new StringCalculator();
+		spaceshipFinder = new finder();
 	});
 
+	//Test 1
 	it('should return 0 for an empty string', function() {
-		expect(calculator.add('')).toEqual(0);
+		expect(spaceshipFinder.find('')).toEqual("Spaceship lost forever");
 	});
+
+	
 });
