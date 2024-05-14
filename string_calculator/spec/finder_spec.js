@@ -18,4 +18,9 @@ describe('ALF Spaceship finder', function() {
 		expect(spaceshipFinder.find('..........\n..........\n..........\n..........\n..........\n..........')).toEqual("Spaceship lost forever");
 	});
 
+	//Test4
+	it('should work correctly with only 1 line', function () {
+		expect(spaceshipFinder.find('.........X')).toEqual("[9, 0]");
+	});
+
 });
