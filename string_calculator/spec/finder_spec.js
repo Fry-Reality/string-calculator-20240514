@@ -1,6 +1,6 @@
 describe('ALF Spaceship finder', function() {
 	beforeEach(function() {
-		spaceshipFinder = new finder();
+		spaceshipFinder = new Finder();
 	});
 
 	//Test 1
